@@ -3,20 +3,25 @@
     <groupId>com.mycompany.app</groupId>
     <artifactId>maven-release-SNAPSHOT</artifactId>
     <packaging>jar</packaging>
-    <version>1.0</version>
+    <version>1.1-SNAPSHOT</version>
     <name>my-app</name>
     <url>https://maven.apache.org</url>
     <scm>
         <!-- <connection>scm:git:ssh://github.com/gcsia/maven-release.git</connection>
         <developerConnection>scm:git:ssh://github.com/gcsia/maven-release.git</developerConnection> -->
+
         <!--
         <connection>scm:git:git://github.com/gcsia/maven-release.git</connection>
         <developerConnection>scm:git:git://github.com/gcsia/maven-release.git</developerConnection>
         -->
+        <!-- <connection>scm:git:git://github.com/gcsia/maven-release.git</connection>
+        <developerConnection>scm:git:git://github.com/gcsia/maven-release.git</developerConnection> -->
+
         <connection>scm:git:https://github.com/gcsia/maven-release.git</connection>
         <developerConnection>scm:git:https://github.com/gcsia/maven-release.git</developerConnection>
-        <url>https://github.com/gcsia/maven-releaseAAA</url>
-      <tag>maven-release-v1.0</tag>
+
+        <url>https://github.com/gcsia/maven-release</url>
+      <tag>HEAD</tag>
   </scm>
     <properties>
         <project.scm.id>github-scm-server</project.scm.id>
