@@ -1,8 +1,3 @@
-making changes 123123123
 
-aaaaaaa
-bbbb
 
-cccc
-
-ddd
+mvn release:prepare --batch-mode -DreleaseVersion=1.0 -DdevelopmentVersion=1.1-SNAPSHOT -Dtag=v1.0
