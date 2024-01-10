@@ -1,3 +1,4 @@
 
+./mvnw release:prepare -B -DreleaseVersion=1.1 -DdevelopmentVersion=1.2-SNAPSHOT -Dtag=maven-release-v1.1
 
-mvn release:prepare --batch-mode -DreleaseVersion=1.0 -DdevelopmentVersion=1.1-SNAPSHOT -Dtag=v1.0
+./mvnw release:perform
