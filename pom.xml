@@ -8,8 +8,8 @@
     <name>my-app</name>
     <url>https://maven.apache.org</url>
     <scm>
-        <connection>scm:git@github.com:gcsia/maven-release.git</connection>
-        <developerConnection>scm:git@github.com:gcsia/maven-release.git</developerConnection>
+        <connection>scm:git:ssh://github.com/gcsia/maven-release.git</connection>
+        <developerConnection>scm:git:ssh://github.com/gcsia/maven-release.git</developerConnection>
         <url>https://github.com/gcsia/maven-release</url>
     </scm>
     <dependencies>
