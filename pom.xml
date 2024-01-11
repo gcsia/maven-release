@@ -21,7 +21,7 @@
         <developerConnection>scm:git:https://github.com/gcsia/maven-release.git</developerConnection>
 
         <url>https://github.com/gcsia/maven-release</url>
-        <tag>HEAD</tag>
+        <tag>my-branch</tag>
     </scm>
     <properties>
         <project.scm.id>github-scm-server</project.scm.id>
